@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.module.scss";
 import Header from "./layouts/Header";
 
 function App() {

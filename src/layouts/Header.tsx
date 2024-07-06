@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import Background from "../common/Background";
 
 export default function Header() {
   return (
-    <header className='bg-[#0075f2] w-full min-h-[180px]'></header>
-  )
+    <header className="bg-[#0d6af5] w-full">
+      <Background />
+    </header>
+  );
 }
