@@ -6,7 +6,7 @@ interface Props {
 }
 export default function Header({ children }: Props) {
   return (
-    <header className="bg-[#0d6af5] w-full">
+    <header className=" w-full relative h-[200px]">
       <Background />
       {children}
     </header>

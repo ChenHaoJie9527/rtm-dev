@@ -1,10 +1,13 @@
 import "./App.module.scss";
+import HeaderTop from "./components/HeaderTop";
 import Header from "./layouts/Header";
 
 function App() {
   return (
     <>
-      <Header />
+      <Header>
+        <HeaderTop />
+      </Header>
     </>
   );
 }
