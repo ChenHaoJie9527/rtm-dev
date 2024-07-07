@@ -5,6 +5,7 @@ export default function Background() {
       <img
         src="https://bytegrad.com/course-assets/js/2/pattern.svg"
         alt="Background pattern"
+        className="w-full h-full"
       />
     </div>
   );

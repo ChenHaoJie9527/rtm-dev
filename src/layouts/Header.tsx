@@ -6,7 +6,7 @@ interface Props {
 }
 export default function Header({ children }: Props) {
   return (
-    <header className=" w-full relative h-[200px]">
+    <header className=" w-full relative flex items-center justify-center flex-col h-[200px]">
       <Background />
       {children}
     </header>

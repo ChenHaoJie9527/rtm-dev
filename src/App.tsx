@@ -1,5 +1,6 @@
 import "./App.module.scss";
 import HeaderTop from "./components/HeaderTop";
+import SearchInput from "./components/SearchInput";
 import Header from "./layouts/Header";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header>
         <HeaderTop />
+        <SearchInput />
       </Header>
     </>
   );
