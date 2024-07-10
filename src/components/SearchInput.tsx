@@ -3,7 +3,7 @@ import { Input } from "@headlessui/react";
 
 export default function SearchInput() {
   return (
-    <div className=" absolute bottom-6 left-1/2 -translate-x-1/2 min-w-[500px] h-[60px]">
+    <div className=" absolute bottom-10 left-1/2 -translate-x-1/2 min-w-[500px] h-[60px]">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
