@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
 
-export default function Main() {
-  return (
-    <div>Main</div>
-  )
+interface Props {
+  children?: React.ReactNode;
+}
+export default function Main({ children }: Props) {
+  return <main className="flex-1 bg-[#e5ebf1] flex justify-center">
+    {children}
+  </main>;
 }
