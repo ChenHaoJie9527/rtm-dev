@@ -1,6 +1,6 @@
 import React from "react";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
-import { cn } from "../lib/utlis";
+import { cn } from "@/lib/utils"
 
 interface Props {
   children?: React.ReactNode;
